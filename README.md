@@ -6,6 +6,11 @@ To use the code, ensure the following libraries are installed:
 - pandas>=2.0
 - numpy>=2.1
 
+Libraries can be installed at command-line using pip:
+```
+pip install numpy pandas requests
+```
+
 To download the data, run WebAPI_export.py in your command-line using the following arguments:
 ```
 python WebAPI_export.py user startDate endDate Folder AccessToken
