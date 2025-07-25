@@ -8,6 +8,8 @@ To use the code, ensure the following libraries are installed:
 
 To download the data, run WebAPI_export.py in your command-line using the following arguments:
 
+python WebAPI_export.py user startDate endDate Folder AccessToken
+
   **user:** account username
   
   **Start Date:** Start of study period or time of interest: Format as YYYY-mm-dd
