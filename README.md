@@ -84,7 +84,7 @@ Currently the following datatypes from FitBit are included:
 For a list of the different data-types from fitbit, check out their dev wiki here: https://dev.fitbit.com/build/reference/web-api/
 More info on how to generate a token can be found here: https://dev.fitbit.com/build/reference/web-api/explore/
 
-The code can be easily edited to add-in missing datatypes as well. For example 
+The code can be edited to add-in missing datatypes as well. 
 
 
 
