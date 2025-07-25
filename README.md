@@ -33,7 +33,7 @@ python WebAPI_export.py C4GNWR 2024-06-02 2024-06-27 ../Data/TestOutput eyJhbGci
 
 **Please note the above access code and username are expired & are just there as an example** 
 
-**Note:** To export WebAPI data, the code needs to start running 5 minutes before the top of an hour (ex. 3:00pm). This is because the Fitbit API has a maximum request limit of 150, and the code requires more than this to run. By running the code 5 minutes before the top of an hour, and then pausing the code in the middle for 10 minutes (included in the code), we are able to raise this request limit to 300, which is able to successfully extract all the data (this is because the request limit resets at the top of every hour).
+**Important Note:** To export WebAPI data, the code needs to start running 5 minutes before the top of an hour (ex. 3:00pm). This is because the Fitbit API has a maximum request limit of 150, and the code requires more than this to run. By running the code 5 minutes before the top of an hour, and then pausing the code in the middle for 10 minutes (included in the code), we are able to raise this request limit to 300, which is able to successfully extract all the data (this is because the request limit resets at the top of every hour).
 
 
 Currently the following datatypes from FitBit are included:
